@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+	// font-family: 'Dongle', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background-color: #001628;
+	color: #d4deec;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+	outline: 1px dashed red;
+	padding: 10px;
+}
+
+output,
+input {
+	background-color: #202123;
+	padding: 0.5rem 1rem;
+	border: none;
+	outline: none;
+	color: #bdc6cf;
+}
